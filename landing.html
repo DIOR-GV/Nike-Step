@@ -175,15 +175,15 @@
                 <form action="https://formspree.io/f/xkgbvbbj" method="post" class="mx-auto" style="max-width: 600px;">
                     <div class="mb-3">
                         <label for="Nombre" class="form-label">Nombre completo </label>
-                        <input type="text" class="form-control shadow-sm " id="Nombre" placeholder="Ej.Laura Martinez" required>
+                        <input type="text" class="form-control shadow-sm " id="Nombre" name="Nombre" placeholder="Ej.Laura Martinez" required>
                     </div>
                     <div class="mb-3">
                         <label for="Correo" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control shadow-sm" id="Correo" placeholder="nombre@ejemplo.com" required>
+                        <input type="email" class="form-control shadow-sm" id="Correo" name="Correo" placeholder="nombre@ejemplo.com" required>
                     </div>
                     <div class="mb-3">
                         <label for="Curso" class="form-label">Selecciona un par</label>
-                        <select class="form-select shadow-sm" id="Par" required>
+                        <select class="form-select shadow-sm" id="Par" name="Curso" required>
                             <option class="selected disabled">--Elige una opción--</option>
                             <option >Nike Blazer Mid '77</option>
                             <option >Nike Air More Uptempo</option>
@@ -192,8 +192,8 @@
                         </select>
                     </div>
                     <div class="mb-4">
-                        <label for="mensaje" class="form-label">Comentarios o dudas</label>
-                        <textarea class="form-control shadow-sm" id="mensaje" rows="3" placeholder="¿Tienes alguna pregunta"></textarea>
+                        <label for="Mensaje" class="form-label">Comentarios o dudas</label>
+                        <textarea class="form-control shadow-sm" id="mensaje" name="Mensaje" rows="3" placeholder="¿Tienes alguna pregunta"></textarea>
                     </div>
                     <button type="submit" class="btn btn-outline-dark btn-lg w-100 shadow"> Enviar incripción</button>
                 </form>
